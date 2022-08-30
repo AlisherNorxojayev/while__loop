@@ -11,4 +11,11 @@ bool isPrime(int n) {
 
 void main() {
   //Print the product of prime numbers from 123 to 130
+  int m = 0;
+  for (int i = 123; i < 130; i++) {
+    if (isPrime(i) == true) {
+      m += i;
+    }
+  }
+  print(m);
 }
